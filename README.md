@@ -1,15 +1,18 @@
 # CellScan
 
+<div align="center">
+
 ```
-   ______          __      ________                __
-  / ____/___  ____/ /__   / ____/ /___  __  ______/ /
- / /   / __ \/ __  / _ \ / /_  / / __ \/ / / / __  /
-/ /___/ /_/ / /_/ /  __/____/ / / /_/ / /_/ / /_/ /
-\____/\____/\__,_/\___/____/_/_/ .___/\__,_/\__,_/
-                              /_/
+                ______     _________                
+              / ____/__  / / / ___/_________ _____ 
+             / /   / _ \/ / /\__ \/ ___/ __ `/ __ \
+            / /___/  __/ / /___/ / /__/ /_/ / / / /
+            \____/\___/_/_//____/\___/\__,_/_/ /_/
 ```
 
 > **RF Carrier Scanner for Indonesian Cellular Spectrum using RTL-SDR Blog V3**
+
+</div>
 
 <div align="center">
 
@@ -20,6 +23,24 @@
 [![RTL-SDR](https://img.shields.io/badge/RTL--SDR-Blog%20V3-0078D4.svg?style=for-the-badge&logo=radio&logoColor=white)](https://www.rtl-sdr.com/)
 
 </div>
+
+---
+
+<div align="center">
+
+### :package: Download
+
+| File | Size | Description |
+| :--- | :---: | :--- |
+| `cellscan-v0.1.0-windows-x86_64.exe` | ~34 MB | Standalone Windows binary (no Python needed) |
+| `cellscan-0.1.0-py3-none-any.whl` | ~50 KB | Universal Python wheel |
+| `cellscan-0.1.0.tar.gz` | ~30 KB | Source distribution |
+
+:arrow_down: Get them from the [**Releases**](https://github.com/Muhammad-Yunus/rtl-sdr-cellular-network-scanner-python/releases) page.
+
+</div>
+
+---
 
 ---
 

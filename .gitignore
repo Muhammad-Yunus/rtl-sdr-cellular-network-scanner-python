@@ -34,5 +34,13 @@ htmlcov/
 # Live capture artefacts (large and host-specific)
 captures/results_*.json
 
+# PyInstaller / build outputs
+build/
+dist/
+*.spec
+
+# Internal specification (not part of public repo)
+AGENT.md
+
 # Misc
 *.log
