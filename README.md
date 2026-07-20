@@ -1,8 +1,39 @@
 # CellScan
 
+```
+   ______          __      ________                __
+  / ____/___  ____/ /__   / ____/ /___  __  ______/ /
+ / /   / __ \/ __  / _ \ / /_  / / __ \/ / / / __  /
+/ /___/ /_/ / /_/ /  __/____/ / / /_/ / /_/ / /_/ /
+\____/\____/\__,_/\___/____/_/_/ .___/\__,_/\__,_/
+                              /_/
+```
+
 > **RF Carrier Scanner for Indonesian Cellular Spectrum using RTL-SDR Blog V3**
 
-CellScan is a Python command-line application that discovers nearby cellular RF
+<div align="center">
+
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey.svg?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/Muhammad-Yunus/rtl-sdr-cellular-network-scanner-python)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![Status](https://img.shields.io/badge/status-active-success.svg?style=for-the-badge)](https://github.com/Muhammad-Yunus/rtl-sdr-cellular-network-scanner-python)
+[![RTL-SDR](https://img.shields.io/badge/RTL--SDR-Blog%20V3-0078D4.svg?style=for-the-badge&logo=radio&logoColor=white)](https://www.rtl-sdr.com/)
+
+</div>
+
+---
+
+<div align="center">
+
+| :sparkles: **Active Development** | :rocket: **Phases 1-8 Complete** | :clipboard: **15 Unit Tests** | :package: **v0.1.0** |
+
+</div>
+
+---
+
+## :mag: Overview
+
+**CellScan** is a Python command-line application that discovers nearby cellular RF
 carrier activity by orchestrating the proven [`rtl_power`](https://github.com/osmocom/rtl-sdr)
 utility. The application focuses on spectrum analysis — it is **not** a cellular
 protocol decoder and does not attempt to decode LTE, GSM, UMTS, MCC/MNC, PCI,
@@ -18,16 +49,46 @@ classification, and operator candidate estimation.
 
 ---
 
-## Features
+## :bar_chart: Project Stats
 
-- **Live spectrum scanning** across all supported Indonesian cellular bands
-- **Replay mode** for deterministic offline analysis of previously recorded CSV captures
-- **Adaptive carrier peak detection** using rolling-median noise floor estimation
-- **Technology classification** for GSM900, UMTS Band 8, LTE Band 5, LTE Band 8
-- **Operator candidate estimation** for all Indonesian MNOs (Telkomsel, Indosat, XL, Tri, Smartfren)
-- **JSON export** for downstream automation
-- **Continuous monitoring** with configurable intervals
-- **Hardware-independent tests** — every analysis module is unit-tested against fixtures, no RTL-SDR required
+| Metric | Value |
+| :--- | :--- |
+| :page_facing_up: Source Lines | ~1,200+ |
+| :test_tube: Unit Tests | 15 |
+| :microchip: SDR Targets | 4 |
+| :flag_indonesia: Country Focus | Indonesia (MCC 510) |
+| :calendar: Since | 2026 |
+
+---
+
+---
+
+## :rocket: Features
+
+<div align="center">
+
+| Feature | Status | Description |
+| :--- | :---: | :--- |
+| Live spectrum scanning | :white_check_mark: | All Indonesian cellular bands |
+| Replay mode | :white_check_mark: | Offline analysis of CSV captures |
+| Adaptive peak detection | :white_check_mark: | Rolling-median noise floor |
+| Technology classification | :white_check_mark: | GSM900 / UMTS B8 / LTE B5 / LTE B8 |
+| Operator estimation | :white_check_mark: | All Indonesian MNOs |
+| JSON export | :white_check_mark: | Downstream automation |
+| Continuous monitoring | :white_check_mark: | Configurable interval |
+| Hardware-independent tests | :white_check_mark: | 15 unit tests, no SDR required |
+| MQTT publisher | :hourglass_flowing_sand: | Planned (Phase 9) |
+
+</div>
+
+- :satellite: **Live spectrum scanning** across all supported Indonesian cellular bands
+- :floppy_disk: **Replay mode** for deterministic offline analysis of previously recorded CSV captures
+- :chart_with_upwards_trend: **Adaptive carrier peak detection** using rolling-median noise floor estimation
+- :signal_strength: **Technology classification** for GSM900, UMTS Band 8, LTE Band 5, LTE Band 8
+- :busts_in_silhouette: **Operator candidate estimation** for all Indonesian MNOs (Telkomsel, Indosat, XL, Tri, Smartfren)
+- :package: **JSON export** for downstream automation
+- :repeat: **Continuous monitoring** with configurable intervals
+- :white_check_mark: **Hardware-independent tests** — every analysis module is unit-tested against fixtures, no RTL-SDR required
 
 ---
 
