@@ -2,11 +2,12 @@
 
 <div align="center">
 <pre style="display: inline-block; text-align: left; font-family: monospace;">
-   ______     _________
-   / ____/__  / / / ___/_________ _____
-   / /   / _ \/ / /\__ \/ ___/ __ `/ __ \
+   ______     _________                
+  / ____/__  / / / ___/_________ _____ 
+ / /   / _ \/ / /\__ \/ ___/ __ `/ __ \
 / /___/  __/ / /___/ / /__/ /_/ / / / /
-\____/\___/_/_//____/\___/\__,_/_/ /_/
+\____/\___/_/_//____/\___/\__,_/_/ /_/ 
+                                       
 </pre>
 
 > **RF Carrier Scanner for Indonesian Cellular Spectrum using RTL-SDR Blog V3**
