@@ -1,0 +1,32 @@
+{
+    "Indonesia": {
+        "MCC": "510",
+        "operators": [
+            {
+                "name": "Telkomsel",
+                "mnc": "10",
+                "bands": ["B5", "B8", "B1", "B3", "B28", "B40", "B41", "GSM900"]
+            },
+            {
+                "name": "Indosat Ooredoo",
+                "mnc": "21",
+                "bands": ["B5", "B8", "B40", "GSM900"]
+            },
+            {
+                "name": "XL Axiata",
+                "mnc": "11",
+                "bands": ["B5", "B8", "B1", "B3", "B40", "GSM900"]
+            },
+            {
+                "name": "Tri (3)",
+                "mnc": "89",
+                "bands": ["B5", "B28", "B40"]
+            },
+            {
+                "name": "Smartfren",
+                "mnc": "09",
+                "bands": ["B40", "B41", "GSM900"]
+            }
+        ]
+    }
+}

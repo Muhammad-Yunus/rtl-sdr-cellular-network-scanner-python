@@ -1,0 +1,30 @@
+[
+    {
+        "technology": "LTE",
+        "band": "B5",
+        "start": 869000000,
+        "end": 894000000,
+        "enabled": true
+    },
+    {
+        "technology": "LTE",
+        "band": "B8",
+        "start": 925000000,
+        "end": 960000000,
+        "enabled": true
+    },
+    {
+        "technology": "UMTS",
+        "band": "B8",
+        "start": 925000000,
+        "end": 960000000,
+        "enabled": true
+    },
+    {
+        "technology": "GSM",
+        "band": "GSM900",
+        "start": 935000000,
+        "end": 960000000,
+        "enabled": true
+    }
+]

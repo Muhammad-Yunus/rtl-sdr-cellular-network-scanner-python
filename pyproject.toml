@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cellscan"
+version = "0.1.0"
+description = "RF Carrier Scanner for Indonesian Cellular Spectrum using RTL-SDR Blog V3"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.0",
+    "click>=8.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.4",
+    "mypy>=1.10",
+]
+
+[project.scripts]
+cellscan = "cellscan.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cellscan"]
+
+[tool.ruff]
+src = ["src"]
+
+[tool.mypy]
+strict = true
+source_dir = "src"
